@@ -1,0 +1,44 @@
+<div class="col-md-6 offset-md-3">
+    <h3>Update Medicine</h3>
+    <form (ngSubmit) = "onSubmit()">
+        
+        <div class="form-group">
+            <label>Medicine ID</label>
+            <input type="number" [(ngModel)] = "medicine.mid" 
+            name="mid" id="mid" class="form-control">
+        </div>    
+        <div class="form-group">
+            <label>Medicine Name</label>
+            <input type="text" [(ngModel)] = "medicine.mname" 
+            name="mname" id="mname" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Mfg. By</label>
+            <input type="text" [(ngModel)] = "medicine.mfgBy" 
+            name="mfgBy" id="mfgBy" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Mfg. Date</label>
+            <input type="text" [(ngModel)] = "medicine.mfgDate" 
+            name="mfgDate" id="mfgDate" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Exp. Date</label>
+            <input type="text" [(ngModel)] = "medicine.expDate" 
+            name="expDate" id="expDate" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Price</label>
+            <input type="number" [(ngModel)] = "medicine.price" 
+            name="price" id="price" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Qty.</label>
+            <input type="number" [(ngModel)] = "medicine.qty" 
+            name="qty" id="qty" class="form-control">
+        </div>
+    
+        <button class="btn btn-success" type="submit">Update</button>
+    </form>
+    
+    </div>
