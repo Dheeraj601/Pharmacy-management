@@ -1,4 +1,4 @@
-#**Pharmacy Management System**
+# **Pharmacy Management System**
 
 This Project is a Pharmacy Management System with CRUD operations the technologies used are:
 
